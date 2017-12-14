@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://101.200.133.41:3306/quhuanqian</property>
+        <property name="user">readonly</property>
+        <property name="password">readonly</property>
+        <property name="initialPoolSize">5</property>
+        <property name="maxPoolSize">20</property>
+    </default-config>
+
+</c3p0-config>
